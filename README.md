@@ -10,7 +10,7 @@ npm i @fortawesome/free-regular-svg-icons
 
 
 ## IMPORTS 
-
+```
 > app.module.ts
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -28,16 +28,18 @@ imports:[
     ...
     FontAwesomeModule
 ]
-
+```
 
 
 > page.module.ts
+
+```
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 imports:[
     ...
     FontAwesomeModule
 ] 
-
+```
 
 ## LINKS
 Angular-fontawesome

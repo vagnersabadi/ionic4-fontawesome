@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Font Awesome
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<fa-icon [icon]="faCoffee"></fa-icon> 
+
+<fa-icon icon="graduation-cap"></fa-icon> 
+<fa-icon icon="spinner"></fa-icon> 
+<fa-icon icon="sync"></fa-icon> 
+
+<fa-icon icon="sync" [pulse]="true" color="primary"></fa-icon> 
+
+<div style="text-align:center">
+  <!-- simple name only that assumes the 'fas' prefix -->
+  <fa-icon icon="coffee"></fa-icon>
+  <!-- ['fas', 'coffee'] is an array that indicates the [prefix, iconName] -->
+  <fa-icon [icon]="['fas', 'coffee']"></fa-icon>
+</div>
+
+
+<fa-icon [icon]="['fas', 'coffee']" [styles]="{'stroke': 'red', 'color': 'red'}"></fa-icon>
+
+</ion-content>

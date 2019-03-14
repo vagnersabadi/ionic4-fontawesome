@@ -41,6 +41,13 @@ imports:[
 ] 
 ```
 
+> page.html
+
+```
+<fa-icon icon="graduation-cap"></fa-icon> 
+
+```
+
 ## LINKS
 Angular-fontawesome
 https://github.com/FortAwesome/angular-fontawesome
